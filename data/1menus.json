@@ -1,0 +1,28 @@
+[
+    {
+        "model": "FlrMenuSection",
+        "meta_id": "seccion_gastos",
+        "data": {
+            "name": "Gastos",
+            "sequence": 1
+        }
+    },
+    {
+        "model": "FlrMenu",
+        "meta_id": "menu_gastos",
+        "data": {
+            "name": "Registros",
+            "sequence": 1,
+            "section_id_META_ID": "seccion_gastos"
+        }
+    },
+    {
+        "model": "FlrMenu",
+        "meta_id": "menu_categorias",
+        "data": {
+            "name": "Categorías",
+            "sequence": 2,
+            "section_id_META_ID": "seccion_gastos"
+        }
+    }
+]

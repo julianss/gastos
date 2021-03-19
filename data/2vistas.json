@@ -1,0 +1,73 @@
+[
+    {
+        "model": "FlrView",
+        "meta_id": "view_list_gastos",
+        "data": {
+            "name": "view.list.gastos",
+            "model": "Gasto",
+            "view_type": "list",
+            "menu_id_META_ID": "menu_gastos",
+            "sequence": 1,
+            "definition": {
+                "structure": [
+                    {"field": "fecha"},
+                    {"field": "categoria"},
+                    {"field": "name"},
+                    {"field": "monto"}
+                ]
+            }
+        }
+    },
+    {
+        "model": "FlrView",
+        "meta_id": "view_form_gastos",
+        "data": {
+            "name": "view.form.gastos",
+            "model": "Gasto",
+            "view_type": "form",
+            "menu_id_META_ID": "menu_gastos",
+            "sequence": 2,
+            "definition": {
+                "structure": [
+                    {"field": "fecha"},
+                    {"field": "categoria"},
+                    {"field": "name"},
+                    {"field": "monto"},
+                    {"field": "chat_id"}
+                ]
+            }
+        }
+    },
+    {
+        "model": "FlrView",
+        "meta_id": "view_list_categorias",
+        "data": {
+            "name": "view.list.categorias",
+            "model": "CategoriaGasto",
+            "view_type": "list",
+            "menu_id_META_ID": "menu_categorias",
+            "sequence": 1,
+            "definition": {
+                "structure": [
+                    {"field": "name"}
+                ]
+            }
+        }
+    },
+    {
+        "model": "FlrView",
+        "meta_id": "view_form_categorias",
+        "data": {
+            "name": "view.form.categorias",
+            "model": "CategoriaGasto",
+            "view_type": "form",
+            "menu_id_META_ID": "menu_categorias",
+            "sequence": 2,
+            "definition": {
+                "structure": [
+                    {"field": "name"}
+                ]
+            }
+        }
+    }
+]
